@@ -1875,5 +1875,15 @@
       "lang": "js",
       "codeBlock": "// kullanım şekli \n(function //function yazılmak zorunda değildir. () \n //...\n});\n\n//Diğer bir fonksiyona argüman olarak örnek kullanımı\nsetTimeout(function() {\nconsole.log('Execute later after 1 second')\n}, 1000);"
     }
+  },
+  {
+    "id": 196,
+    "category": ["CSS"],
+    "term": "Filter",
+    "desc": "Filtre CSS özelliği, bir öğeye bulanıklaştırma veya renk kaydırma gibi grafik efektleri uygular. Filtreler genellikle görüntülerin, arka planların ve kenarlıkların işlenmesini ayarlamak için kullanılır.",
+    "example": {
+      "lang": "css",
+      "codeBlock": "/* Sık kullanılan filtreler ve örnek parametreleri*/\nfilter: blur(5px);\nfilter: brightness(0.4);filter: contrast(200%);\nfilter: grayscale(50%);\nfilter: invert(75%);\n/* Ayrıca çoklu filtreleme de mümkündür*/\nfilter: contrast(175%) brightness(3%);"
+    }
   }
 ]
